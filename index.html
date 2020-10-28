@@ -423,16 +423,16 @@
                 <div class="container allprograms" style="border: 1px solid transparent;">
 
 
-                    <h1 class="programs">HTML</h1>
-                    <h1 class="programs">CSS+SASS</h1>
-                    <h1 class="programs">Javascript</h1>
-                    <h1 class="programs">ReactJS</h1>
-                    <h1 class="programs">PHP</h1>
-                    <h1 class="programs">Python</h1>
-                    <h1 class="programs">MySQL</h1>
-                    <h1 class="programs">Git</h1>
-                    <h1 class="programs">Rest APIs</h1>
-                    <h1 class="programs">Photoshop</h1>
+                    <h1 class="programs html">HTML</h1>
+                    <h1 class="programs css">CSS+SASS</h1>
+                    <h1 class="programs js">Javascript</h1>
+                    <h1 class="programs react">ReactJS</h1>
+                    <h1 class="programs php">PHP</h1>
+                    <h1 class="programs python">Python</h1>
+                    <h1 class="programs mysql">MySQL</h1>
+                    <h1 class="programs git">Git</h1>
+                    <h1 class="programs rest">Rest APIs</h1>
+                    <h1 class="programs photoshop">Photoshop</h1>
                     <div class="whatsmy-title"></div>
 
                 
@@ -880,7 +880,7 @@
 
                 const back2 = $('.back');
                
-                console.log(smoke);
+                // console.log(smoke);
                 // The ,0 just means play the animation at the same time
                 t1.fromTo($('.rocket.normal-rocket.rocket1'),1,{bottom:'0px'},{bottom:'80%'})
                 .fromTo(smoke,3,{opacity:'1'},{opacity:'0'},0)
@@ -948,24 +948,24 @@
             onClickers(4);
             
             
-            $('.me').on('click',function(e){
-                alert('Your screen dimensions are: '+screen.width+'x'+screen.height);
-                alert('Your window dimensions are: '+window.innerWidth+'x'+window.innerHeight);
-            })
+            // $('.me').on('click',function(e){
+            //     alert('Your screen dimensions are: '+screen.width+'x'+screen.height);
+            //     alert('Your window dimensions are: '+window.innerWidth+'x'+window.innerHeight);
+            // })
             const width=screen.width;
             var slide3_loaded = false;
 
-            $('.html').css({'transform':'translateX(-'+(width/3)*1+'px)'});
-            $('.css').css({'transform':'translateX(-'+(width/3)*2+'px)'});
-            $('.js').css({'transform':'translateX(-'+(width/3)*3+'px)'});
+            // $('.html').css({'transform':'translateX(-'+(width/3)*1+'px)'});
+            // $('.css').css({'transform':'translateX(-'+(width/3)*2+'px)'});
+            // $('.js').css({'transform':'translateX(-'+(width/3)*3+'px)'});
 
-            $('.react').css({'transform':'translateX(-'+(width/3)*1+'px)'});
-            $('.python').css({'transform':'translateX(-'+(width/3)*2+'px)'});
-            $('.mysql').css({'transform':'translateX(-'+(width/3)*3+'px)'});
+            // $('.react').css({'transform':'translateX(-'+(width/3)*1+'px)'});
+            // $('.python').css({'transform':'translateX(-'+(width/3)*2+'px)'});
+            // $('.mysql').css({'transform':'translateX(-'+(width/3)*3+'px)'});
 
-            $('.php').css({'transform':'translateX(-'+(width/3)*1+'px)'});
-            $('.photoshop').css({'transform':'translateX(-'+(width/3)*2+'px)'});
-            $('.illustrator').css({'transform':'translateX(-'+(width/3)*3+'px)'});
+            // $('.php').css({'transform':'translateX(-'+(width/3)*1+'px)'});
+            // $('.photoshop').css({'transform':'translateX(-'+(width/3)*2+'px)'});
+            // $('.illustrator').css({'transform':'translateX(-'+(width/3)*3+'px)'});
 
             $('#fullpage').fullpage({
                         
@@ -974,15 +974,15 @@
                 lockAnchors: true,
 
                 afterSlideLoad: function(section, origin, destination, direction){
-                    console.log(destination);
+                    // console.log(destination);
                     var screen_width = window.innerWidth;
                     if (screen_width<1024){
                         var mobile=true;
                     }
-                    console.log("=====slide has been open"+destination);
-                    console.log(section,origin,destination);
+                    // console.log("=====slide has been open"+destination);
+                    // console.log(section,origin,destination);
 
-                    console.log("leaving "+section);
+                    // console.log("leaving "+section);
                     
                     if (destination==0){
                         
@@ -1006,7 +1006,7 @@
                     }
                     else if (destination==2){
                         // $(".back3").css({'background-color':'#ceb895'});
-                        console.log("overwriting");
+                        // console.log("overwriting");
                         $(".recentproj").text("The Warsha Shop");
                         $(".recentproj").addClass("whatsmy-smaller");
 
@@ -1034,8 +1034,8 @@
                     const baby_rocket = $('.holder.rocket2');
                     // SlideNumber
                     var slideNumber = $('.fp-section.active').index() + 1;
-                    console.log("JUST LOADED ==== "+slideNumber);
-                    console.log("animations complete"+animationsLoaded);
+                    // console.log("JUST LOADED ==== "+slideNumber);
+                    // console.log("animations complete"+animationsLoaded);
 
                     $(".fp-tooltip.right").css({'opacity':'0.35'});
                     $("#fp-nav > ul > li:nth-child("+slideNumber+") > div").css({'opacity':'1'});
@@ -1047,9 +1047,10 @@
                         $("#fp-nav ul li a span, .fp-slidesNav ul li a span").css({"background-color": '#333333'});
                     }
                     // $.fn.fullpage.setScrollingSpeed(10000);
-                    console.log('slide 3 loaded'+slide3_loaded);
+                    // console.log('slide 3 loaded'+slide3_loaded);
+
                     if (slideNumber==3){
-                        console.log('making slide3 loaded = true');
+                        // console.log('making slide3 loaded = true');
                         var slide3_loaded = true;
                         const width = screen.width;
                         // alert('ok');
@@ -1057,16 +1058,16 @@
                         const baby_rocket = $('.holder.rocket2');
                         
                         
-                        t3.to(baby_rocket,0.8,{'top':'0px'})
-                        .fromTo($('.html'),0.8,{'transform':'translateX(-'+(width/3)*1+'px)'},{'transform':'translateX(0px)','transition':'none'},0)
-                        .fromTo($('.css'),0.8,{'transform':'translateX(-'+(width/3)*2+'px)'},{'transform':'translateX(0px)','transition':'none'},0.2)
-                        .fromTo($('.js'),0.8,{'transform':'translateX(-'+(width/3)*3+'px)'},{'transform':'translateX(0px)','transition':'none'},0.4)
-                        .fromTo($('.react'),0.8,{'transform':'translateX(-'+(width/3)*1+'px)'},{'transform':'translateX(0px)','transition':'none'},0.6)
-                        .fromTo($('.python'),0.8,{'transform':'translateX(-'+(width/3)*2+'px)'},{'transform':'translateX(0px)','transition':'none'},0.8)
-                        .fromTo($('.mysql'),0.8,{'transform':'translateX(-'+(width/3)*3+'px)'},{'transform':'translateX(0px)','transition':'none'},1)
-                        .fromTo($('.php'),0.8,{'transform':'translateX(-'+(width/3)*1+'px)'},{'transform':'translateX(0px)','transition':'none'},1.2)
-                        .fromTo($('.photoshop'),0.8,{'transform':'translateX(-'+(width/3)*2+'px)'},{'transform':'translateX(0px)','transition':'none'},1.4)
-                        .fromTo($('.illustrator'),0.8,{'transform':'translateX(-'+(width/3)*3+'px)'},{'transform':'translateX(0px)','transition':'none'},1.5);
+                        t3.to(baby_rocket,0.8,{'top':'0px'});
+                        // .fromTo($('.html'),0.8,{'transform':'translateX(-'+(width/3)*1+'px)'},{'transform':'translateX(0px)','transition':'none'},0)
+                        // .fromTo($('.css'),0.8,{'transform':'translateX(-'+(width/3)*2+'px)'},{'transform':'translateX(0px)','transition':'none'},0.2)
+                        // .fromTo($('.js'),0.8,{'transform':'translateX(-'+(width/3)*3+'px)'},{'transform':'translateX(0px)','transition':'none'},0.4)
+                        // .fromTo($('.react'),0.8,{'transform':'translateX(-'+(width/3)*1+'px)'},{'transform':'translateX(0px)','transition':'none'},0.6)
+                        // .fromTo($('.python'),0.8,{'transform':'translateX(-'+(width/3)*2+'px)'},{'transform':'translateX(0px)','transition':'none'},0.8)
+                        // .fromTo($('.mysql'),0.8,{'transform':'translateX(-'+(width/3)*3+'px)'},{'transform':'translateX(0px)','transition':'none'},1)
+                        // .fromTo($('.php'),0.8,{'transform':'translateX(-'+(width/3)*1+'px)'},{'transform':'translateX(0px)','transition':'none'},1.2)
+                        // .fromTo($('.photoshop'),0.8,{'transform':'translateX(-'+(width/3)*2+'px)'},{'transform':'translateX(0px)','transition':'none'},1.4)
+                        // .fromTo($('.illustrator'),0.8,{'transform':'translateX(-'+(width/3)*3+'px)'},{'transform':'translateX(0px)','transition':'none'},1.5)
                         
                         // .to($('.html'),1,{rotationY:-360},0.1)
                         // .to($('.css'),1,{rotationY:-360},0.2)
@@ -1084,7 +1085,7 @@
                     }
                     if (slideNumber==4){
 
-                        console.log('!========!'+$('.fp-section.active').find('.fp-slide.active')[0].id);
+                        // console.log('!========!'+$('.fp-section.active').find('.fp-slide.active')[0].id);
                         const baby_rocket3 = $('.holder.rocket3');
                         const t4 = new TimelineMax();
                         const t6 = new TimelineMax();
@@ -1105,10 +1106,10 @@
                         var top = $(".whatsmy-title").css("top");
                         var font_size = $(".whatsmy-title").css("font-size")
 
-                        console.log($('.fp-section.active').find('.fp-slide.active')[0].id)
+                        // console.log($('.fp-section.active').find('.fp-slide.active')[0].id)
                         if ($('.fp-section.active').find('.fp-slide.active')[0].id=="bg-1"){
                             
-                            console.log("making it here");
+                            // console.log("making it here");
                             // t6.to(projects,0.5,{'opacity':'0'},1.5)
                             // .call(function() {
                             //     projects.addClass("whatsmy-title");
@@ -1171,7 +1172,7 @@
                     
                 },
                 onSlideLeave: function(section, origin, destination, direction){
-                    console.log("i can intercept");
+                    // console.log("i can intercept");
 
                     // Close the info background for the page you're about to leave if slide away
                     onClickers(destination+1,true);

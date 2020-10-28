@@ -446,8 +446,40 @@ body{
 
 
 .main-title.hello:hover{
+    cursor:url('/twit.png') 60 60, auto;
     
-    
+}
+
+.react{
+    z-index:7000;
+}
+
+.html:hover{
+    cursor:url('./hover_images/html-new.png') 60 60, auto;
+}
+.css:hover{
+    cursor:url('./hover_images/css3-new.png') 60 60, auto;
+}
+.js:hover{
+    cursor:url('./hover_images/js-new.png') 60 60, auto;
+}
+.react:hover{
+    cursor:url('./hover_images/react.png') 60 60, auto;
+}
+.php:hover{
+    cursor:url('./hover_images/php-new.png') 60 60, auto;    
+}
+.photoshop:hover{
+    cursor:url('./hover_images/photoshop.png') 60 60, auto;
+}
+.python:hover{
+    cursor:url('./hover_images/python.png') 60 60, auto;
+}
+.mysql:hover{
+    cursor:url('./hover_images/mysql.png') 60 60, auto;
+}
+.git:hover{
+    cursor:url('./hover_images/git.png') 60 60, auto;
 }
 .hello{
     font-size:5em !important;
