@@ -684,7 +684,7 @@ body{
     font-size: 30px;
     
     }
-    .options1, .options2, .options3, .options4{
+    .options1, .options2, .options3, .options4, .options5{
         position: absolute;
     
         opacity: 0.8;
@@ -705,13 +705,17 @@ body{
         left:calc(300vw + 32px) !important;
         opacity: 1 !important;
     }
+    .options5{
+        left:calc(400vw + 32px) !important;
+        opacity: 1 !important;
+    }
 
     .options_text{
         font-size: 2em !important;
         transition: all 0.5s ease-in-out;
     }
   
-    .onion1, .onion2, .onion3, .onion4{
+    .onion1, .onion2, .onion3, .onion4, .onion5{
         display:none;
         width: 100%;
         height: 100%;
@@ -719,14 +723,14 @@ body{
         transition: all 1s ease-in-out;
         opacity:0;
     }
-    .info1_desc, .info2_desc, .info3_desc, .info4_desc{
+    .info1_desc, .info2_desc, .info3_desc, .info4_desc, .info5_desc{
         position: absolute;
         width: 75vw;
         font-family: 'Raleway-SemiBold';
         top:30%;
         font-size: 18px;
     }
-    .desktop_info1_desc, .desktop_info2_desc, .desktop_info3_desc, .desktop_info4_desc{
+    .desktop_info1_desc, .desktop_info2_desc, .desktop_info3_desc, .desktop_info4_desc, .desktop_info5_desc{
        
         width: 75vw;
         font-family: 'Raleway-SemiBold';
@@ -1062,7 +1066,7 @@ body{
         top:41%;
     }
 
-    .options1, .options2, .options3, .options4{
+    .options1, .options2, .options3, .options4, .options5{
         position: absolute;
         bottom: 41px;
         /* color: #f9f1e9; */
@@ -1079,6 +1083,10 @@ body{
     }
     .options4{
         left:calc(300vw + 49px) !important;
+        opacity:1 !important;
+    }
+    .options5{
+        left:calc(400vw + 49px) !important;
         opacity:1 !important;
     }
 }
@@ -1428,10 +1436,10 @@ body{
 }
 
 @media (min-width:1025px){
-    .options1,.options2,.options3,.options4{
+    .options1,.options2,.options3,.options4, .options5{
         display:none;
     }
-    .desktop_holder1,.desktop_holder2,.desktop_holder3,.desktop_holder4{
+    .desktop_holder1,.desktop_holder2,.desktop_holder3,.desktop_holder4,.desktop_holder5{
         display:block;
     }
 }
@@ -1443,7 +1451,7 @@ body{
 
 @media (min-width: 1366px) {
 
-    .desktop_info1_desc, .desktop_info2_desc, .desktop_info3_desc, .desktop_info4_desc{
+    .desktop_info1_desc, .desktop_info2_desc, .desktop_info3_desc, .desktop_info4_desc, .desktop_info5_desc{
        
         width: 75vw;
         font-family: 'Raleway-SemiBold';
@@ -1659,7 +1667,7 @@ body{
 }
 
 @media (min-width: 1920px) {
-    .desktop_info1_desc, .desktop_info2_desc, .desktop_info3_desc, .desktop_info4_desc {
+    .desktop_info1_desc, .desktop_info2_desc, .desktop_info3_desc, .desktop_info4_desc, .desktop_info5_desc {
         width: 75vw;
         font-family: 'Raleway-SemiBold';
         width: 500px;
@@ -1815,7 +1823,7 @@ body{
         background-position: right -1100px bottom 0px !important;
     }
 
-    .info1_desc, .info2_desc, .info3_desc, .info4_desc{
+    .info1_desc, .info2_desc, .info3_desc, .info4_desc, .info5_desc{
         font-size: 27px !important;
     }
 }
@@ -1836,7 +1844,7 @@ and (orientation : landscape) {
     #bg-4{
         background-position: right -500px bottom 0px !important;
     }
-    .info1_desc, .info2_desc, .info3_desc, .info4_desc{
+    .info1_desc, .info2_desc, .info3_desc, .info4_desc, .info5_desc{
         font-size: 27px !important;
     }
 
@@ -1859,7 +1867,7 @@ and (orientation : landscape) {
     .options_text {
         font-size: 3em !important;
     }
-    .info1_desc, .info2_desc, .info3_desc, .info4_desc{
+    .info1_desc, .info2_desc, .info3_desc, .info4_desc, .info5_desc{
         font-size: 35px !important;
     }
     .whatsmy-title {
@@ -1891,7 +1899,7 @@ and (orientation : landscape) {
     .options_text {
         font-size: 3em !important;
     }
-    .info1_desc, .info2_desc, .info3_desc, .info4_desc{
+    .info1_desc, .info2_desc, .info3_desc, .info4_desc, .info5_desc{
         font-size: 35px !important;
     }
     
