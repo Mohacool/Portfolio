@@ -58,7 +58,8 @@ body{
     z-index:-1;
 
     
-    background-image: url("CONTACT2.jpg");
+    /* background-image: url("CONTACT2.jpg"); */
+    background-image: url("https://res.cloudinary.com/mohacool/image/upload/v1610991140/Portfolio%20Assets/CONTACT2-compressed_hubm2e.jpg");
     /* Full height */
     height: 100%;
   
@@ -544,7 +545,8 @@ body{
 /* old */
 #bg-1 {
 
-    background-image: url("whatsmychord.jpg");
+    /* background-image: url("whatsmychord.jpg"); */
+    background-image :url("https://res.cloudinary.com/mohacool/image/upload/v1610991141/Portfolio%20Assets/whatsmychord-compressed_hz1mgu.jpg");
     /* Full height */
     height: 100%;
   
@@ -556,7 +558,8 @@ body{
 
   #bg-2 {
 
-    background-image: url("philosophycove-new.jpg");
+    /* background-image: url("philosophycove-new.jpg"); */
+    background-image: url("https://res.cloudinary.com/mohacool/image/upload/v1610991141/Portfolio%20Assets/philosophycove-new-compressed_syqeod.jpg");
     
     height: 100%;
   
@@ -571,7 +574,9 @@ body{
   #bg-3 {
 
     
-    background-image: url("warshashop.jpg");
+    /* background-image: url("warshashop.jpg");
+    background-image: url("warshashop-compressed.jpg"); */
+    background-image: url("https://res.cloudinary.com/mohacool/image/upload/v1610991667/Portfolio%20Assets/warshashop-compressed_lmgh6x.jpg");
 
     height: 100%;
   
@@ -584,7 +589,8 @@ body{
   }
   #bg-4 {
 
-    background-image: url("netflixbrowser-new.jpg");
+    /* background-image: url("netflixbrowser-new.jpg"); */
+    background-image: url("https://res.cloudinary.com/mohacool/image/upload/v1610991141/Portfolio%20Assets/netflixbrowser-new-compressed_l8bfxt.jpg");
     height: 100%;
   
     /* Center and scale the image nicely */
@@ -593,6 +599,16 @@ body{
     background-size: cover;
 
    
+  }
+  #bg-5{
+    /* background-image: url("french.jpg"); */
+    background-image: url("https://res.cloudinary.com/mohacool/image/upload/v1610991141/Portfolio%20Assets/french-compressed_jkhjlh.jpg");
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   /* new */

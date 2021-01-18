@@ -39,7 +39,8 @@
 		}
 
 		.demo .large-header{
-            background-image: url("space.jpg");
+            /* background-image: url("space.jpg"); */
+            background-image: url("https://res.cloudinary.com/mohacool/image/upload/v1610991831/Portfolio%20Assets/space-compressed_gpdpaf.jpg");
             
         }
         .demo .large-header-flipped{
@@ -50,7 +51,8 @@
 			background-size: cover;
 			background-position: center center;
 			z-index: 1;
-            background-image: url("space-flipped.jpg");
+            /* background-image: url("space-flipped.jpg"); */
+            background-image: url("https://res.cloudinary.com/mohacool/image/upload/v1610991830/Portfolio%20Assets/space-flipped-compressed_olktnw.jpg");
             /* background-color:rgb(8, 8, 8); */
         }
 
@@ -465,7 +467,7 @@
                         </div>
                     </span>
                 </div>
-                <div class="slide_number">1/4</div>
+                <div class="slide_number">1/5</div>
                 
                     <style>
                         img{
@@ -613,6 +615,7 @@
                     
                     </div>
 
+                    <!-- Slide 3 -->
                     <div class="slide" id="bg-3">
                         <div class="options3">
                             <a href="https://github.com/Mohacool/warsha-shop" target="_blank">
@@ -650,6 +653,7 @@
              
                     </div>
 
+                    <!-- Slide 4 -->
                     <div class="slide" id="bg-4">
                         <div class="options4">
                             <a href="https://github.com/Mohacool/NetflixBrowserReact" target="_blank">
@@ -686,6 +690,46 @@
                         </div>
              
                     </div>
+
+                     <!-- Slide 5 -->
+                     <div class="slide" id="bg-5">
+                        
+                        <div class="options2">
+                            <a href="https://github.com/Mohacool/ThePhilosophyCove" target="_blank">
+                                <h3 class="options_text" style="color:#f9f1e9">github</h3>
+                            </a>
+                            
+                            <a href="https://www.thephilosophycove.com" target="_blank">
+                                <h3 class="options_text" style="color:#f9f1e9">site</h3>
+                            </a>
+
+                            <h3 class="options_text info2" style="color:#f9f1e9">info</h3>
+                        </div>
+
+                        <div class="onion2">
+                            <p class="info2_desc">A site where short stories and philosophical writings are published.
+                                <span class="code"><br>- <i>HTML</i>, <i>CSS</i>, <i>Javascript</i></span>
+                            </p>
+                        </div>
+
+                        <!-- desktop info -->
+                        <div class="desktop_holder2">
+                            <p class="desktop_info2_desc">A site where short stories and philosophical writings are published.
+                                <span class="code"><br>- <i>HTML</i>, <i>CSS</i>, <i>Javascript</i></span>
+                            </p>
+
+                           
+                            <a href="https://github.com/Mohacool/ThePhilosophyCove" target="_blank">
+                                <h3 class="desktop_options_text">github</h3>
+                            </a>
+                            
+                            <a href="https://www.thephilosophycove.com" target="_blank">
+                                <h3 class="desktop_options_text">site</h3>
+                            </a>
+                        </div>
+                    
+                    </div>
+                   
 
                   
 
@@ -991,7 +1035,7 @@
                         $(".recentproj").addClass("whatsmy-title");
                         $(".recentproj").removeClass("whatsmy-smaller");
 
-                        $(".slide_number").text("1/4");
+                        $(".slide_number").text("1/5");
                         
                     }
                     else if (destination==1){
@@ -1000,7 +1044,7 @@
                         $(".recentproj").text("The Philosophy Cove");
                         $(".recentproj").addClass("whatsmy-smaller");
 
-                        $(".slide_number").text("2/4");
+                        $(".slide_number").text("2/5");
 
                         
                     }
@@ -1010,16 +1054,26 @@
                         $(".recentproj").text("The Warsha Shop");
                         $(".recentproj").addClass("whatsmy-smaller");
 
-                        $(".slide_number").text("3/4");
+                        $(".slide_number").text("3/5");
                         
                     }
-                    else{
+                    else if (destination==3){
                         // $(".back3").css({'background-color':'#95ce9e'});
                         
                         $(".recentproj").text("Netflix Browser");
                         $(".recentproj").addClass("whatsmy-smaller");
 
-                        $(".slide_number").text("4/4");
+                        $(".slide_number").text("4/5");
+                        
+                        
+                    }
+                    else{
+                        // $(".back3").css({'background-color':'#ceb895'});
+                        // console.log("overwriting");
+                        $(".recentproj").text("French P-Hacker");
+                        $(".recentproj").addClass("whatsmy-smaller");
+
+                        $(".slide_number").text("5/5");
                         
                     }
                 },
