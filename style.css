@@ -970,7 +970,8 @@ body{
         #bg-3{
             background-position: right -567px bottom 0px !important;        }
         #bg-4{
-            background-position: right -1176px bottom 0px !important;        
+            /* background-position: right -1176px bottom 0px !important;         */
+            background-position: right -889px bottom 0px !important; 
         }
         .grid{
             padding-top:50px;
@@ -1000,7 +1001,8 @@ body{
         background-position: right -372px bottom 0px;
     }
     #bg-4{
-        background-position: right -802px bottom 0px;
+        /* background-position: right -802px bottom 0px; */
+        background-position: right -651px bottom 0px;
     }
 
     /* #bg-1{
@@ -1103,7 +1105,8 @@ body{
         background-position: right -434px bottom 0px;    }
     #bg-4{
          /* for mobile */
-        background-position: right -937px bottom 0px;
+        /* background-position: right -937px bottom 0px; */
+        background-position: right -767px bottom 0px;
     }
     .fronticons{
         width:40px !important;
@@ -1177,7 +1180,9 @@ body{
     #bg-3{
         background-position: right -452px bottom 0px;    }
     #bg-4{
-        background-position: right -1011px bottom 0px;    }
+        /* background-position: right -1011px bottom 0px;  */
+        background-position: right -471px bottom 0px;
+       }
     .fronticons{
         width:40px !important;
     }
@@ -1298,7 +1303,8 @@ body{
         background-position: right -34px bottom 0px !important;
     }
     #bg-4{
-        background-position: right -543px bottom 0px !important;
+        /* background-position: right -543px bottom 0px !important; */
+        background-position: right -577px bottom 0px !important;
     }
       .whatsmy-smaller {
         font-size: 28px !important;
@@ -1820,7 +1826,9 @@ body{
         background-position: right -109px bottom 0px;
     }
     #bg-4{
-        background-position: right -1100px bottom 0px !important;
+        /* background-position: right -1100px bottom 0px !important; */
+
+        background-position: right -1047px bottom 0px !important;
     }
 
     .info1_desc, .info2_desc, .info3_desc, .info4_desc, .info5_desc{
@@ -1842,7 +1850,9 @@ and (orientation : landscape) {
         background-position: right -109px bottom 0px;
     }
     #bg-4{
-        background-position: right -500px bottom 0px !important;
+        /* background-position: right -500px bottom 0px !important; */
+
+        background-position: right -450px bottom 0px !important;
     }
     .info1_desc, .info2_desc, .info3_desc, .info4_desc, .info5_desc{
         font-size: 27px !important;
@@ -1936,7 +1946,7 @@ and (orientation : landscape) {
         background-position: right -500px bottom 0px !important;
     }
     #bg-4 {
-        background-position: right -1550px bottom 0px !important;
+        /* background-position: right -1550px bottom 0px !important; */
     }
 }
 
